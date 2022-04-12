@@ -1,0 +1,37 @@
+body{
+	background-color:lightseagreen;
+	text-align; center;
+}
+h1{
+	text-align:center;
+}  
+h2{
+	text-align:center;
+}  
+.move{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.separator{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+.action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result-display{
+	text-align:center;
+	}
+button {
+    border: none;
+    background: none;
+}
+

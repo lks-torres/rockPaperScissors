@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <h1>The Rock Paper Scissors Game</h1>
+	
+    <div class="display-moves">
+        <div class="move">
+            <img id="playerMove" >
+        </div>
+		<div class="separator">Player Move</div>
+        <div class="separator">VS</div>
+        <div class="move">
+            <img id="computerMove">
+        </div>
+		<div class="separator">Computer Move</div>
+	<div class="result-display">	
+		<h1 id="result"></h1>			
+    </div>
+    <h2>Click on the image below to select your move:</h2>
+    <div class="action">
+        <button onclick="checkWinner(this)" value="Rock"><img src="./images/Rock.svg"></button>
+        <button onclick="checkWinner(this)" value="Paper"><img src="./images/Paper.svg"></button>
+        <button onclick="checkWinner(this)" value="Scissors"><img src="./images/Scissors.svg"></button>
+    </div>
+	
+    <script src="script.js"></script>
+</body>
+</html>
